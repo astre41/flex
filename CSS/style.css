@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+body {
+    line-height: 2;
+    background: url(../images/back.png);
+}
+
+main {
+    width: 1315px;
+    margin: 10px auto 10px auto;
+    background-color: white;
+}
+
+h1 {
+    height: 102px;
+    background: #fff;
+    text-align: center;
+}
+
+h2 {
+    width: 325px;
+    font-size: 18px;
+    background: linear-gradient(transparent 40%, #a0d8ef 90%);
+    margin: 15px auto 8px auto;
+}
+
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+nav ul {
+    width: 1024px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    width: 204px;
+    background: #a0d8ef;
+    color: #fff;
+    font-size: 25px;
+    border: #fff 1px solid;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li:nth-child(even) {
+    background-color: #89c3ed;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba( 255, 255, 255, 0.55);
+}
+
+nav a:active {
+    text-decoration: none;
+    background: #fff;
+    color: #89c3ed;
+}
+
+figure {
+    margin-top: 15px;
+    text-align: center;
+}
+
+article {
+    width: 1024px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+}
+
+.baka {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main ul li {
+    list-style: none;
+}
+
+.spoit {
+    width: 1024px;
+    margin: 50px auto 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    width: 1024px;
+    height: 90px;
+    margin: auto;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.icon {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+hr {
+    border: #bbb 1px dotted;
+}
+
+#min {
+    font-size: 12px;
+}
+
+p {
+    margin-bottom: 10px;
+}
